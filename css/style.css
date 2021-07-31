@@ -75,9 +75,9 @@ nav a img{
 }
 
 #intro, #about, #skills, #qualification, #services, #proyects, #extra, #contact{
-    margin: 9rem auto;
+    margin: 12rem auto;
 }
 
 #intro{
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
