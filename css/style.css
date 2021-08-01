@@ -24,6 +24,7 @@ p{
     margin-left: 0;
     text-align: left;
     font-family: 'Consolas';
+    color: rgb(192, 0, 176);
 }
 
 .frase{
@@ -76,13 +77,3 @@ nav a img{
 #intro, #about, #skills, #qualification, #services, #proyects, #extra, #contact{
     margin: 12rem auto;
 }
-
-#intro{
-    margin-top: 5rem;
-    color: rgb(192, 0, 176);
-}
-
-#about{
-    color: #0f0;
-}
-
