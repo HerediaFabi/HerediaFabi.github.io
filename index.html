@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="js/observers.js"> -->
 
         <title>Fabiana Heredia | Portafolio</title>
     </head>
@@ -25,18 +26,36 @@
             </button>
             <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#intro">.intro() <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about">.about()</a>
-                    <a class="nav-item nav-link" href="#skills">.skills()</a>
-                    <a class="nav-item nav-link" href="#services">.services() ?</a>
-                    <a class="nav-item nav-link" href="#proyects">.proyects()</a>
-                    <a class="nav-item nav-link" href="#extra">.extra() ?</a>
-                    <a class="nav-item nav-link" href="#contact">.contact()</a>
+                    <a class="nav-item nav-link" href="#intro">intro <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about">about</a>
+                    <a class="nav-item nav-link" href="#skills">skills</a>
+                    <a class="nav-item nav-link" href="#services">services?</a>
+                    <a class="nav-item nav-link" href="#services">qualification</a>
+                    <a class="nav-item nav-link" href="#proyects">proyects</a>
+                    <a class="nav-item nav-link" href="#extra">extra?</a>
+                    <a class="nav-item nav-link" href="#contact">contact</a>
                 </div>
             </div>
         </nav>
-        <div class="pagina">
-            <div id="intro" class="col-12 col-sm-10 col-md-10 col-lg-10">
+        <div id="pagina">
+            <div id="intro" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion">
+                <!-- ------------------------------ C A R A T U L A ---------------------------------------- -->
+                <section id="slider">
+                    <div id="content-images-slider">
+                        <div class="image-slider rellax" id="slider4" data-rellax-speed="-10"></div>
+                        <div class="image-slider rellax" id="slider3" data-rellax-speed="-6"></div>
+                        <div class="text-slider rellax" data-rellax-speed="-10">
+                            <div class="text-slider">
+                                <div id="slider-text">
+                                    <p>INTENTO DE PARALLAX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-slider rellax" id="slider2" data-rellax-speed="-4"></div>
+                        <div class="image-slider" id="slider1"></div>
+                    </div>
+                </section>
+                <!-- --------------------------- I  N  T  R  O ----------------------------- -->
                 <p class="etiqueta">&lt;intro&gt;</p>
                 <div class="row alinearVertical">
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4">
@@ -55,73 +74,77 @@
                 </div>
                 <p class="etiqueta">&lt;/intro&gt;</p>
             </div>
-            <!-- <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <!-- <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     El único modo de hacer un gran trabajo es amar lo que haces.
                 </p>
             </div> -->
-            <div id="about" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="about" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;about&gt;</p>
                 <p class="etiqueta">&lt;/about&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     El único modo de hacer un gran trabajo es amar lo que haces.
                 </p>
             </div>
-            <div id="skills" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="skills" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;skills&gt;</p>
                 <p class="etiqueta">&lt;/skills&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
-            <div id="qualification" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="qualification" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;qualification&gt;</p>
                 <p class="etiqueta">&lt;/qualification&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
-            <div id="services" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="services" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;services&gt;</p>
                 <p class="etiqueta">&lt;/services&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
-            <div id="proyects" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="proyects" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;proyects&gt;</p>
                 <p class="etiqueta">&lt;/proyects&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
-            <div id="extra" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="extra" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;extra&gt;</p>
                 <p class="etiqueta">&lt;/extra&gt;</p>
             </div>
-            <div class="frase col-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
-            <div id="contact" class="col-12 col-sm-10 col-md-10 col-lg-10">
+            <div id="contact" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;contact&gt;</p>
                 <p class="etiqueta">&lt;/contact&gt;</p>
             </div>
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" referrerpolicy="no-referrer"></script>
+        <script src='js/rellax.min.js'></script>
+        <script src='js/parallax.js'></script>
+        <script src="js/observers.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
