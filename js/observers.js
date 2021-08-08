@@ -31,5 +31,5 @@ $(document).ready(function(){
         appearOnScroll.observe(slider);
     });
 
-    $("#intro").fadeIn(5000);
+    // $("#intro").fadeIn(5000);
 });

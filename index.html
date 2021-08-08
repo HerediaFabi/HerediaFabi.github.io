@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/darkTheme.css">
         <!-- <link rel="stylesheet" href="js/observers.js"> -->
 
         <title>Fabiana Heredia | Portafolio</title>
@@ -18,58 +19,35 @@
     <body>
         <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="imagenes/LogoNaCeP.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="imagenes/FAHNa.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Fabiana Heredia
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav alinearDerecha">
                     <a class="nav-item nav-link" href="#intro">intro <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#about">about</a>
                     <a class="nav-item nav-link" href="#skills">skills</a>
-                    <a class="nav-item nav-link" href="#services">services?</a>
                     <a class="nav-item nav-link" href="#services">qualification</a>
                     <a class="nav-item nav-link" href="#proyects">proyects</a>
-                    <a class="nav-item nav-link" href="#extra">extra?</a>
                     <a class="nav-item nav-link" href="#contact">contact</a>
                 </div>
             </div>
         </nav>
         <div id="pagina">
-            <div id="intro" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion">
-                <!-- ------------------------------ C A R A T U L A ---------------------------------------- -->
-                <section id="slider">
-                    <div id="content-images-slider">
-                        <div class="image-slider rellax" id="slider4" data-rellax-speed="-10"></div>
-                        <div class="image-slider rellax" id="slider3" data-rellax-speed="-6"></div>
-                        <div class="text-slider rellax" data-rellax-speed="-10">
-                            <div class="text-slider">
-                                <div id="slider-text">
-                                    <p>INTENTO DE PARALLAX</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="image-slider rellax" id="slider2" data-rellax-speed="-4"></div>
-                        <div class="image-slider" id="slider1"></div>
-                    </div>
-                </section>
-                <!-- --------------------------- I  N  T  R  O ----------------------------- -->
+
+            
+            <!-- --------------------------- I  N  T  R  O ----------------------------- -->
+            <div id="intro" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion">
                 <p class="etiqueta">&lt;intro&gt;</p>
                 <div class="row alinearVertical">
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-                        <img src="imagenes/LogoCeNaSD.png" alt="">
+                        <img src="imagenes/FAHCe.png" alt="">
                         <!-- <h1>Holis</h1> -->
                     </div>
-                    <div class="col-12 col-sm-8 col-md-8 col-lg-8">
-                        <p>
-                            Hola! Mi nombre es <span class="celeste">F</span>abiana <span class="celeste">H</span>eredia y soy 
-                            desarrolladora de software.
-                            <br>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        </p>
+                    <div id="typedtext" class="col-12 col-sm-8 col-md-8 col-lg-8">
                     </div>
                 </div>
                 <p class="etiqueta">&lt;/intro&gt;</p>
@@ -79,8 +57,21 @@
                     El único modo de hacer un gran trabajo es amar lo que haces.
                 </p>
             </div> -->
-            <div id="about" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
+            <div id="about" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in ">
                 <p class="etiqueta">&lt;about&gt;</p>
+                    <div class="row alinearVertical">
+                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                            <p class="title">About me</p>
+                            <p>
+                                I am 20 years old and I am currently studying
+                                <span class="cyanUnderline">"University Technique in Programming"</span>
+                                at the National Technological University in Córdoba, Argentina.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <img src="https://animationsticks.files.wordpress.com/2012/02/gran-pelea.gif" alt="">
+                        </div>
+                    </div>
                 <p class="etiqueta">&lt;/about&gt;</p>
             </div>
             <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
@@ -88,8 +79,9 @@
                     El único modo de hacer un gran trabajo es amar lo que haces.
                 </p>
             </div>
-            <div id="skills" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
+            <div id="skills" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;skills&gt;</p>
+                <p>Habilidad para ser inutil</p>
                 <p class="etiqueta">&lt;/skills&gt;</p>
             </div>
             <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
@@ -97,7 +89,7 @@
                     Frase
                 </p>
             </div>
-            <div id="qualification" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
+            <div id="qualification" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;qualification&gt;</p>
                 <p class="etiqueta">&lt;/qualification&gt;</p>
             </div>
@@ -106,16 +98,7 @@
                     Frase
                 </p>
             </div>
-            <div id="services" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
-                <p class="etiqueta">&lt;services&gt;</p>
-                <p class="etiqueta">&lt;/services&gt;</p>
-            </div>
-            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
-                <p>
-                    Frase
-                </p>
-            </div>
-            <div id="proyects" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
+            <div id="proyects" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;proyects&gt;</p>
                 <p class="etiqueta">&lt;/proyects&gt;</p>
             </div>
@@ -124,16 +107,7 @@
                     Frase
                 </p>
             </div>
-            <div id="extra" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
-                <p class="etiqueta">&lt;extra&gt;</p>
-                <p class="etiqueta">&lt;/extra&gt;</p>
-            </div>
-            <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
-                <p>
-                    Frase
-                </p>
-            </div>
-            <div id="contact" class="col-12 col-sm-10 col-md-10 col-lg-10 seccion fade-in slide-in from-bottom">
+            <div id="contact" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;contact&gt;</p>
                 <p class="etiqueta">&lt;/contact&gt;</p>
             </div>
@@ -142,9 +116,13 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" referrerpolicy="no-referrer"></script>
-        <script src='js/rellax.min.js'></script>
-        <script src='js/parallax.js'></script>
+        <!-- <script src='js/rellax.min.js'></script>
+        <script src='js/parallax.js'></script> -->
         <script src="js/observers.js"></script>
+        <script src="js/animations.js"></script>
+        <script>
+            
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>

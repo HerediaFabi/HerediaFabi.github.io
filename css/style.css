@@ -8,35 +8,34 @@ body{
     margin: 0;
 }
 
-
 /*------ S C R O L L B A R ------*/
 ::-webkit-scrollbar {
     width: .7vw;
 }
 
-::-webkit-scrollbar-track {
-    background: #4d4c4c; 
-}
-
-::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(#29a0f0, #4d4c4c, #29a0f0); 
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(#29a0f0, #29d9f0,#29a0f0);
-}
-
 #pagina div{
     /* background-color: red; */
     /* width: 800px;  */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
     /* background-color: #2c2c2c; */
     /* vertical-align: auto; */
 }
 
-p{
+cyan{
+    color: #30C6B7;
+}
+
+underline{
+    text-decoration: underline #ffab3c;
+}
+
+p {
     margin-left: 1rem;
+    font-size: 130%;
+}
+
+#typedtext{
     font-size: 130%;
 }
 
@@ -45,6 +44,7 @@ p{
     text-align: left;
     font-family: 'Consolas';
     color: #FD79C2;
+    letter-spacing: .15em;
 }
 
 .frase{
@@ -52,15 +52,27 @@ p{
     /* margin-top: 1rem !important; */
 }
 
+.title{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    display: inline-block;
+    padding: 0 1rem;
+    border: 2px solid #ccc;
+    font-weight: bold;
+}
+
 .alinearVertical{
     display: flex;
     align-items: center;
 }
 
+.alinearDerecha{
+    float: right !important;
+}
+
 nav{
     background-color: #101010;
     text-align: center;
-    /* border-bottom: 1px solid #30C6B7; */
     margin-bottom: 7rem;
 }
 
@@ -79,7 +91,7 @@ img{
     margin: 0;
     width: 100%;
     border-radius: 10%;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 nav a img{
@@ -87,12 +99,16 @@ nav a img{
     height: 30px;
 }
 
-#intro img{
+.seccion img{
     margin-bottom: 1rem;
 }
 
 .celeste{
     color: #30C6B7;
+}
+
+.cyanUnderline{
+    text-decoration: underline #30C6B7;
 }
 
 #intro, #about, #skills, #qualification, #services, #proyects, #extra, #contact{
@@ -124,3 +140,4 @@ nav a img{
     opacity: 1;
 }
 
+/* ----------------------------------------------------- */
