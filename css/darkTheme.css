@@ -28,9 +28,9 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(#FD79C2, #4d4c4c, #29a0f0); 
+    background-image: linear-gradient(#ffab3c, #4d4c4c, #ffab3c); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(#29a0f0, #29d9f0,#29a0f0);
+    background-image: linear-gradient(#ffab3c, #ffc579,#ffab3c);
 }

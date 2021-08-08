@@ -13,6 +13,8 @@ body{
     width: .7vw;
 }
 
+
+/*---------------------------------*/
 #pagina div{
     /* background-color: red; */
     /* width: 800px;  */
@@ -43,13 +45,34 @@ p {
     margin-left: 0;
     text-align: left;
     font-family: 'Consolas';
-    color: #FD79C2;
+    color: #ffab3c;
     letter-spacing: .15em;
+    /* text-transform: uppercase; */
+    font-weight: 500;
 }
 
 .frase{
-    background-color: red !important;
-    /* margin-top: 1rem !important; */
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 170%;
+    margin: auto;
+    /* color: #ddd; */
+    /* padding: 7rem 0; */
+    /* font-family: 'Patrick Hand'; */
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1.5px 1.5px  2px #30C6B7;
+}
+
+.frase p{
+    margin: 0;
+}
+
+.creditos{
+    /* font-family: 'Raleway'; */
+    float: right;
+    font-size: 100%;
+    text-shadow: 1.5px 1.5px 2px #ffab3c;
 }
 
 .title{
@@ -74,6 +97,8 @@ nav{
     background-color: #101010;
     text-align: center;
     margin-bottom: 7rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 nav a{
@@ -112,7 +137,11 @@ nav a img{
 }
 
 #intro, #about, #skills, #qualification, #services, #proyects, #extra, #contact{
-    margin: 10rem auto;
+    margin: 20rem auto;
+}
+
+#intro{
+    margin-top: 10rem;
 }
 
 .fade-in{
@@ -128,7 +157,15 @@ nav a img{
     transform: translateY(50%);
 }
 
-.from-bottom{
+.from-left{
+    transform: translateX(-50%);
+}
+
+.from-right{
+    transform: translateX(50%);
+}
+
+.from-bottom, .from-left, .from-right{
     transition: 
         opacity 250ms ease-in, 
         transform 400ms ease-in;
@@ -137,6 +174,11 @@ nav a img{
 
 .from-bottom.appear{
     transform: translateY(0);
+    opacity: 1;
+}
+
+.from-left.appear, .from-right.appear{
+    transform: translateX(0);
     opacity: 1;
 }
 
