@@ -96,7 +96,7 @@ p {
 nav{
     background-color: #101010;
     text-align: center;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -117,6 +117,10 @@ img{
     width: 100%;
     border-radius: 10%;
     max-width: 200px;
+}
+
+#logo{
+    max-width: 150px;
 }
 
 nav a img{
@@ -141,7 +145,7 @@ nav a img{
 }
 
 #intro{
-    margin-top: 10rem;
+    margin-top: 0;
 }
 
 .fade-in{
