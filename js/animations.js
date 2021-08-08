@@ -1,9 +1,9 @@
 // $(document).ready(function(){
     // set up text to print, each item in array is new line
     var aText = new Array(
-        "Hi there! My name is <cyan>F</cyan>abiana <cyan>H</cyan>eredia.", 
-        "I'm <underline>Software Developer.</underline>",
-        "*Some phrase or information that fills this space*"
+        "Hello! welcome to my personal portfolio.", 
+        "My name is <cyan>F</cyan>abiana <cyan>H</cyan>eredia.",
+        "I'm <underline>Software Developer.</underline>"
         
     );
     var iSpeed = 40; // time delay of print out
