@@ -74,10 +74,10 @@ p {
     margin: auto;
     padding: 2px;
     overflow: hidden;
-    /* background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
+    background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
     background-size: 200% auto;
     
-    animation: shine 3s linear infinite; */
+    animation: shine 3s linear infinite;
     background-color: #ddd;
 }
 
