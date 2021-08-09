@@ -1,12 +1,22 @@
 body{
-    background-color: #101010;
+    background-color: #1d1d1d;
     color: #ddd;
     font-family: 'Raleway';
     width: 100%;
     height: 100%;
     overflow-x: hidden;
     margin: 0;
+    background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
+    background-size: 200% auto;
+    
+    animation: shine 3s linear infinite;
 }
+
+::selection {
+    background: #f38a00;
+}
+
+
 
 /*------ S C R O L L B A R ------*/
 ::-webkit-scrollbar {
@@ -52,16 +62,27 @@ p {
 }
 
 .frase{
-    background-color: rgba(255, 0, 0, 0);
     font-size: 170%;
-    margin: auto;
-    /* color: #ddd; */
+    /* margin: auto; */
     /* padding: 7rem 0; */
     /* font-family: 'Patrick Hand'; */
     letter-spacing: .2rem;
     text-transform: uppercase;
     font-weight: 900;
     text-shadow: 1.5px 1.5px  2px #30C6B7;
+    background-color: #101010;
+    
+}
+
+.contenedorFrase{
+    margin: auto;
+    padding: 2px;
+    overflow: hidden;
+    /* background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
+    background-size: 200% auto;
+    
+    animation: shine 3s linear infinite; */
+    background-color: #ddd;
 }
 
 .frase p{
@@ -73,6 +94,7 @@ p {
     float: right;
     font-size: 100%;
     text-shadow: 1.5px 1.5px 2px #ffab3c;
+    color: #101010;
 }
 
 .title{
@@ -96,7 +118,6 @@ p {
 nav{
     background-color: #101010;
     text-align: center;
-    margin-bottom: 6rem;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -141,12 +162,16 @@ nav a img{
 }
 
 #intro, #about, #skills, #qualification, #services, #proyects, #extra, #contact{
-    margin: 20rem auto;
+    margin: 10rem auto;
+    padding: 10rem 0;
 }
 
 #intro{
+    padding-top: 6rem;
     margin-top: 0;
 }
+
+/*-------- F A D E   I N ----------*/
 
 .fade-in{
     opacity: 0;
@@ -186,4 +211,78 @@ nav a img{
     opacity: 1;
 }
 
-/* ----------------------------------------------------- */
+/* ------- B O R D E   A N I M A D Ooooooooooooo ---------- */
+#figure1 {
+    position: absolute;
+    /* display: block; */
+    top: -50%;
+    left: -120%;
+    z-index: -9;
+    display: block;
+    /* transform: rotate(-45deg); */
+    height: 250%;
+    width: 250%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #101010;
+    /* background-size: 200% auto; */
+}
+#figure2 {
+    position: absolute;
+    /* display: block; */
+    top: 300%;
+    left: -100%;
+    z-index: -9;
+    display: block;
+    /* transform: rotate(-45deg); */
+    height: 125%;
+    width: 250%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 40%;
+    overflow: hidden;
+    background: #101010;
+    /* background-size: 200% auto; */
+}
+
+#figure3{
+    position: absolute;
+    top: -49%;
+    left: -120%;
+    z-index: -10;
+    display: block;
+    height: 250%;
+    width: 250%;
+    border-radius: 50%;
+    /* overflow: hidden;
+    background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
+    background-size: 200% auto;
+     */
+    background-color: #ffab3c;
+    /* animation: shine 3s linear infinite; */
+}
+
+#figure4 {
+    position: absolute;
+    /* display: block; */
+    top: 299%;
+    left: -100%;
+    z-index: -10;
+    display: block;
+    /* transform: rotate(-45deg); */
+    height: 125%;
+    width: 250%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 40%;
+    overflow: hidden;
+    background: #ffab3c;
+    /* background-size: 200% auto; */
+}
+
+
+/*Begin shimmer code*/
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
