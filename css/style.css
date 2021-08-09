@@ -6,10 +6,6 @@ body{
     height: 100%;
     overflow-x: hidden;
     margin: 0;
-    background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
-    background-size: 200% auto;
-    
-    animation: shine 3s linear infinite;
 }
 
 ::selection {
@@ -212,71 +208,7 @@ nav a img{
 }
 
 /* ------- B O R D E   A N I M A D Ooooooooooooo ---------- */
-#figure1 {
-    position: absolute;
-    /* display: block; */
-    top: -50%;
-    left: -120%;
-    z-index: -9;
-    display: block;
-    /* transform: rotate(-45deg); */
-    height: 250%;
-    width: 250%;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #101010;
-    /* background-size: 200% auto; */
-}
-#figure2 {
-    position: absolute;
-    /* display: block; */
-    top: 300%;
-    left: -100%;
-    z-index: -9;
-    display: block;
-    /* transform: rotate(-45deg); */
-    height: 125%;
-    width: 250%;
-    border-top-left-radius: 90%;
-    border-top-right-radius: 40%;
-    overflow: hidden;
-    background: #101010;
-    /* background-size: 200% auto; */
-}
 
-#figure3{
-    position: absolute;
-    top: -49%;
-    left: -120%;
-    z-index: -10;
-    display: block;
-    height: 250%;
-    width: 250%;
-    border-radius: 50%;
-    /* overflow: hidden;
-    background: linear-gradient(to right, #ffab3c 20%, #ffab3c 40%, #30C6B7 50%, #30C6B7 55%, #30C6B7 70%, #ffab3c 100%);
-    background-size: 200% auto;
-     */
-    background-color: #ffab3c;
-    /* animation: shine 3s linear infinite; */
-}
-
-#figure4 {
-    position: absolute;
-    /* display: block; */
-    top: 299%;
-    left: -100%;
-    z-index: -10;
-    display: block;
-    /* transform: rotate(-45deg); */
-    height: 125%;
-    width: 250%;
-    border-top-left-radius: 90%;
-    border-top-right-radius: 40%;
-    overflow: hidden;
-    background: #ffab3c;
-    /* background-size: 200% auto; */
-}
 
 
 /*Begin shimmer code*/
