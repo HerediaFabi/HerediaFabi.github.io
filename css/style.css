@@ -16,7 +16,7 @@ body{
 
 /*------ S C R O L L B A R ------*/
 ::-webkit-scrollbar {
-    width: .7vw;
+    width: .8vw;
 }
 
 
@@ -102,7 +102,7 @@ p {
     font-weight: bold;
 }
 
-.alinearVertical{
+.centrarVertical{
     display: flex;
     align-items: center;
 }
@@ -173,6 +173,22 @@ nav a img{
 #intro{
     padding-top: 6rem;
     margin-top: 0;
+}
+
+/*-------- B A R R A S   D E   P R O G R E S O ----------*/
+.progress{
+    background-color: #303030;
+}
+
+.progress-bar{
+    background-color: #30C6B7;
+    color: #101010;
+    font-weight: bold;
+}
+
+.progress-bar:hover{
+    background-color: #ffab3c;
+    color: #101010;
 }
 
 /*-------- F A D E   I N ----------*/
