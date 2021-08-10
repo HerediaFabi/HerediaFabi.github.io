@@ -195,6 +195,22 @@ nav a img{
     color: #101010;
 }
 
+/*------- B O T O N   A N I M A D O -------*/
+.neonBtn{
+    border: 2px solid #30C6B7;
+    padding: .5rem;
+    border-radius: 1rem;
+    color: #30C6B7;
+}
+
+.neonBtn:hover, .neonBtn:focus{
+    text-decoration: none;
+    text-shadow: 0 0 10px #ddd;
+    color: #ddd;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+}
+
 /*-------- F A D E   I N ----------*/
 
 .fade-in{
@@ -249,3 +265,4 @@ li{
         background-position: 200% center;
     }
 }
+
