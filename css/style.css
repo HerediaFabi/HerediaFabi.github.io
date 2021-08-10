@@ -128,6 +128,14 @@ nav a:hover{
     text-shadow: 1px 1px 2px #30C6B7 !important;
 }
 
+/* .navbar-nav {             !FIJARSE COMO ALINEAR LOS LINKS A LA DERECHAAAAA
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    justify-content: right !important;
+    align-items: center !important;
+} */
+
 img{
     /* height: 100%; */
     margin: 0;
@@ -207,9 +215,12 @@ nav a img{
     opacity: 1;
 }
 
-/* ------- B O R D E   A N I M A D Ooooooooooooo ---------- */
+/*--------- Desplegable seccion skills ---------*/
+li{
+    list-style: none;
+}
 
-
+/* ------- B O R D E   A N I M A D O ---------- */
 
 /*Begin shimmer code*/
 

@@ -18,33 +18,46 @@
         <title>Fabiana Heredia | Portafolio</title>
     </head>
     <body>
+        <!-- <nav id="navbar-example2" class="navbar navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/FAHNa.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Fabiana H.
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </nav> -->
         <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="imagenes/FAHNa.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Fabiana Heredia
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navFH" aria-controls="navFH" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse"  id="navFH">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#intro">intro <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#about">about</a>
                     <a class="nav-item nav-link" href="#skills">skills</a>
                     <a class="nav-item nav-link" href="#services">qualification</a>
                     <a class="nav-item nav-link" href="#proyects">proyects</a>
-                    <a class="nav-item nav-link" href="#contact">contact</a>
+                    <a class="nav-item nav-link pull-right" href="#contact">contact</a>
                 </div>
             </div>
         </nav>
-        <div id="pagina">
+        <div id="pagina" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
             <!-- --------------------------- I  N  T  R  O ----------------------------- -->
             <div id="intro" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion">
                 <p class="etiqueta">&lt;intro&gt;</p>
                 <div class="row alinearVertical">
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4">
                         <img id="logo" src="imagenes/FAHCe.png" alt="">
-                        <!-- <h1>Holis</h1> -->
                     </div>
                     <div id="typedtext" class="col-12 col-sm-8 col-md-8 col-lg-8">
                     </div>
@@ -82,32 +95,147 @@
             <!-- --------------------------- S  K  I  L  L  S ----------------------------- -->
             <div id="skills" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;skills&gt;</p>
-                <p>Habilidad para ser inutil</p>
+                <div class="row">
+                    <!-- --------------------------- F R O N T E N D ----------------------------- -->
+                    <div style="background-color: red;" class="col-6">
+                        <p>
+                            <a class="" data-toggle="collapse" href="#frontend" role="button" aria-expanded="false" aria-controls="frontend">
+                                Frontend
+                            </a>
+                        </p>
+                        <div class="collapse" id="frontend">
+                            <ul style="background-color: blue;">
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            HTML
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            CSS
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            JavaScript
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- --------------------------- B A C K E N D ----------------------------- -->
+                    <div style="background-color: red;" class="col-6">
+                        <p>
+                            <a class="" data-toggle="collapse" href="#backend" role="button" aria-expanded="false" aria-controls="backend">
+                                Backend
+                            </a>
+                        </p>
+                        <div class="collapse" id="backend">
+                            <ul style="background-color: blue;">
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            C#
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            Python
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            Java
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row alinearVertical">
+                                        <div class="col-4">
+                                            SQL
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <p class="etiqueta">&lt;/skills&gt;</p>
             </div>
+            <!-- --------------------------- F  R  A  S  E ----------------------------- -->
             <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
+            <!-- ---------------------- Q  U  A  L  I  F  I  C  A  T  I  O  N ------------------------- -->
             <div id="qualification" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;qualification&gt;</p>
                 <p class="etiqueta">&lt;/qualification&gt;</p>
             </div>
+            <!-- --------------------------- F  R  A  S  E ----------------------------- -->
             <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
+            <!-- ---------------------- P  R  O  Y  E  C  T  S ----------------------- -->
             <div id="proyects" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;proyects&gt;</p>
                 <p class="etiqueta">&lt;/proyects&gt;</p>
             </div>
+            <!-- --------------------------- F  R  A  S  E ----------------------------- -->
             <div class="frase fade-in col-12 col-sm-10 col-md-10 col-lg-10">
                 <p>
                     Frase
                 </p>
             </div>
+            <!-- ------------------------ C  O  N  T  A  C  T -------------------------- -->
             <div id="contact" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
                 <p class="etiqueta">&lt;contact&gt;</p>
                 <p class="etiqueta">&lt;/contact&gt;</p>
