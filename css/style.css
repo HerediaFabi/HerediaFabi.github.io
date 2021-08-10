@@ -175,6 +175,10 @@ nav a img{
     margin-top: 0;
 }
 
+#carita{
+    font-size: 150%;
+}
+
 /*-------- B A R R A S   D E   P R O G R E S O ----------*/
 .progress{
     background-color: #303030;

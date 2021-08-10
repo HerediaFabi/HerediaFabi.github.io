@@ -3,7 +3,7 @@
     var aText = new Array(
         "Hello! welcome to my personal portfolio.", 
         "My name is <cyan>F</cyan>abiana <cyan>H</cyan>eredia.",
-        "I'm <underline>Software Developer.</underline>"
+        "I'm <underline>Software Developer.</underline> <span id='carita'>&#9786</span>"
         
     );
     var iSpeed = 40; // time delay of print out
