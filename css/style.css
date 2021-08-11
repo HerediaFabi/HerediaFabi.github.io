@@ -195,7 +195,8 @@ nav a img{
     color: #101010;
 }
 
-/*------- B O T O N   A N I M A D O -------*/
+/*------- S E C C I O N    S K I L L S -------*/
+/*----- B O T O N E S -----*/
 .neonBtn{
     border: 2px solid #30C6B7;
     padding: .5rem;
@@ -210,6 +211,18 @@ nav a img{
     border: 2px solid #ddd;
     box-shadow: 0 0 10px #ddd;
 }
+
+/*----- I T E M S    B O T O N E S -----*/
+.toggleText{
+    text-align: left !important;
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+.toggleItem{
+    margin-bottom: .5rem;
+}
+
 
 /*-------- F A D E   I N ----------*/
 
