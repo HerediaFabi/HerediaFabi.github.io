@@ -39,49 +39,5 @@
         }
     }
     
-    
     typewriter();
-    
-    //FIJARSE SI SE PUEDE HACE COMPARANDO EL COLOR DE FONDO DEL BOTON
-    function cambiarFondoBoton(idBoton, bandera){
-        if(bandera){
-            $("#"+idBoton).css("background-color", "#ddd");
-            $("#"+idBoton).css("color", "#101010");
-            $("#"+idBoton).css("border", "0px");
-            // $("#"+idBoton).css("background-color", "red");
-        }
-        else{
-            $("#"+idBoton).css("background-color", "#101010");
-            $("#"+idBoton).css("color", "#30C6B7");
-            $("#"+idBoton).css("border", "2px solid #30C6B7");
-        }
-    }
-
-    function cambiarBandera(bandera){
-        if(bandera){
-            bandera = false;
-        }else{
-            bandera = true;
-        }
-        return bandera;
-    }
-
-    var banderaBtnTools = true;
-    var banderaBtnFrontend = true;
-    var banderaBtnBackend = true;
-
-    $("#btnTools").click(function(){
-        cambiarFondoBoton("btnTools", banderaBtnTools);
-        banderaBtnTools = cambiarBandera(banderaBtnTools);
-    })
-
-    $("#btnFrontend").click(function(){
-        cambiarFondoBoton("btnFrontend", banderaBtnFrontend);
-        banderaBtnFrontend = cambiarBandera(banderaBtnFrontend);
-    })
-    
-    $("#btnBackend").click(function(){
-        cambiarFondoBoton("btnBackend", banderaBtnBackend);
-        banderaBtnBackend = cambiarBandera(banderaBtnBackend);
-    })
 //});

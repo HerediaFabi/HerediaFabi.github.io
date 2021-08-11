@@ -214,7 +214,7 @@ nav a img{
 
 /*----- I T E M S    B O T O N E S -----*/
 .toggleText{
-    text-align: left !important;
+    // text-align: left !important;
     margin-bottom: 0;
     font-size: 100%;
 }
@@ -269,7 +269,73 @@ li{
     list-style: none;
 }
 
-/* ------- B O R D E   A N I M A D O ---------- */
+/*------ S K I L L S    T O G G L E S ------*/
+ul.ks-cboxtags {
+    list-style: none;
+}
+ul.ks-cboxtags li{
+    display: inline;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #30C6B7;
+    color: #30C6B7;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    // font-weight: 900;
+    font-size: 150%;
+    padding: 0px 6px 2px 0px;
+    content: "\21E9";
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "\21E7";
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+} 
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 2px solid #ffab3c;
+    color: #ffab3c;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+    display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+    border: 2px dashed #fff;
+}
+
+/* ------- F O N D O   A N I M A D O ---------- */
 
 /*Begin shimmer code*/
 
@@ -278,4 +344,3 @@ li{
         background-position: 200% center;
     }
 }
-
