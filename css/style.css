@@ -294,7 +294,8 @@ ul.ks-cboxtags li label{
 }
 
 ul.ks-cboxtags li label {
-    padding: 8px 12px;
+    width: 80%;
+    // padding: 8px 12px;
     cursor: pointer;
 }
 
@@ -332,7 +333,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
     opacity: 0;
 }
 ul.ks-cboxtags li input[type="checkbox"]:focus + label {
-    border: 2px dashed #fff;
+    border: 2px dashed #0f0;
 }
 
 /* ------- F O N D O   A N I M A D O ---------- */
