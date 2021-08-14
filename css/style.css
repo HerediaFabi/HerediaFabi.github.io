@@ -31,7 +31,7 @@ body{
 }
 
 cyan{
-    color: #30C6B7;
+    color: #00ffe5;
 }
 
 underline{
@@ -170,9 +170,33 @@ nav a img{
     padding: 10rem 0;
 }
 
+.contenido{
+    color: #000;
+    font-weight: 650;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(6px);
+    padding: 1rem;
+    border-radius: 2rem;
+    // margin-top: 30vh;
+    // top: auto;
+}
+
+.carousel-caption{
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.carousel-item{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 #intro{
+    padding: 0;
+    margin: 0;
     padding-top: 6rem;
-    margin-top: 0;
+    margin-top: 6rem;
+    color: #000;
 }
 
 #carita{
@@ -334,6 +358,14 @@ ul.ks-cboxtags li input[type="checkbox"] {
 }
 ul.ks-cboxtags li input[type="checkbox"]:focus + label {
     border: 2px dashed #0f0;
+}
+
+/*----------------------------------------------*/
+#fondoInicio{
+    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
 }
 
 /* ------- F O N D O   A N I M A D O ---------- */
