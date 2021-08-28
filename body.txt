@@ -1,0 +1,323 @@
+<nav class="navbar sticky-top navbar-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/FAHNa.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Fabiana Heredia
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navFH" aria-controls="navFH" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navFH">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#intro">intro <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about">about</a>
+                    <a class="nav-item nav-link" href="#skills">skills</a>
+                    <a class="nav-item nav-link" href="#services">qualification</a>
+                    <a class="nav-item nav-link" href="#proyects">proyects</a>
+                    <a class="nav-item nav-link pull-right" href="#contact">contact</a>
+                </div>
+            </div>
+        </nav>
+        <div id="pagina" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <!--  -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="fondoInicio" class="d-block w-100" src="imagenes/fondo2.JPG" alt="First slide">
+                        <div class="carousel-caption d-md-block row">
+                            <div class="contenido">
+                                <p class="etiqueta etiquetaDark">&lt;intro&gt;</p>
+                                <div class="row">
+                                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                        <img id="logo" class="" src="imagenes/FAHCe.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 centrarVertical">
+                                        <div id="typedtext" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="etiqueta etiquetaDark">&lt;/intro&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item active">
+                        <img id="fondoInicio" src="imagenes/fondo2.JPG" alt="logoFH">
+                        <div class="centrarVertical carousel-caption d-inline-block">
+                            <div id="intro" class="col-11 col-sm-11 col-md-10 col-lg-8 seccion blur">
+                                <div class="contenido">
+                                    <p class="etiqueta">&lt;intro&gt;</p>
+                                    <div class="row centrarVertical">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <img id="logo" src="imagenes/FAHCe.png" alt="">
+                                        </div>
+                                        <div id="typedtext" class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                        </div>
+                                    </div>
+                                    <p class="etiqueta">&lt;/intro&gt;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- --------------------------- I  N  T  R  O ----------------------------- -->
+            <!-- <div id="intro" class="col-11 col-sm-11 col-md-10 col-lg-8 seccion">
+                <p class="etiqueta">&lt;intro&gt;</p>
+                <div class="row centrarVertical">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <img id="logo" src="imagenes/FAHCe.png" alt="">
+                    </div>
+                    <div id="typedtext" class="col-12 col-sm-8 col-md-8 col-lg-8">
+                    </div>
+                </div>
+                <p class="etiqueta">&lt;/intro&gt;</p>
+            </div> -->
+            <!-- --------------------------- A  B  O  U  T ----------------------------- -->
+            <div id="about" class="col-11 col-sm-11 col-md-10 col-lg-8 seccion">
+                <p class="etiqueta fade-in">&lt;about&gt;</p>
+                    <div class="row centrarVertical slide-in from-bottom">
+                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                            <p class="title">About me</p>
+                            <p>
+                                I'm 20 years old. I'm currently studying
+                                <span class="cyanUnderline">"University Technique in Programming"</span>
+                                at the National Technological University in Córdoba, Argentina.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <img src="imagenes/fotoPerfil2.jpg" alt="">
+                        </div>
+                    </div>
+                <p class="etiqueta fade-in">&lt;/about&gt;</p>
+            </div>
+            <!-- --------------------------- F  R  A  S  E ----------------------------- -->
+            <div class="contenedorFrase slide-in from-bottom col-10 col-sm-10 col-md-10 col-lg-6">
+                <div class="frase ">
+                    <p>
+                        ''The only way to do great job is to love what you do.''
+                    </p>
+                    <p class="creditos">-Steve Jobs</p>
+                </div>
+            </div>
+            <!-- --------------------------- S  K  I  L  L  S ----------------------------- -->
+            <div id="skills" class="col-11 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
+                <p class="etiqueta">&lt;skills&gt;</p>
+                <div class="row">
+                    <!-- --------------------------- F R O N T E N D ----------------------------- -->
+                    <div class="col-12">
+                        <p>
+                            <ul class="ks-cboxtags">
+                                <li><input data-toggle="collapse" href="#frontend" role="button" aria-expanded="false" aria-controls="frontend" type="checkbox" id="btnFrontend"><label for="btnFrontend">Frontend</label></li>
+                            </ul>
+                        </p>
+                        <div class="collapse" id="frontend">
+                            <ul>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">HTML</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">CSS</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">JavaScript</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- --------------------------- B A C K E N D ----------------------------- -->
+                    <div class="col-12">
+                        <p>
+                            <ul class="ks-cboxtags">
+                                <li><input data-toggle="collapse" href="#backend" role="button" aria-expanded="false" aria-controls="backend" type="checkbox" id="btnBackend"><label for="btnBackend">Backend</label></li>
+                            </ul>
+                        </p>
+                        <div class="collapse" id="backend">
+                            <ul>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">C#</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">SQL</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress ">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">Java</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical">
+                                        <div class="col-4">
+                                            <p class="toggleText">Python</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------- T O O L S --------------------------------- -->
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            <ul class="ks-cboxtags">
+                                <li><input data-toggle="collapse" href="#tools" role="button" aria-expanded="false" aria-controls="tools" type="checkbox" id="btnTools"><label for="btnTools">Tools</label></li>
+                            </ul>
+                        </p>
+                        <div class="collapse" id="tools">
+                            <ul class="m-auto">
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">Visual Studio Code</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">Visual Studio</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">X</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">X</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">X</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row centrarVertical toggleItem">
+                                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                                            <p class="toggleText">X</p> 
+                                        </div>
+                                        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="etiqueta">&lt;/skills&gt;</p>
+            </div>
+            <!-- ---------------------- P  R  O  Y  E  C  T  S ----------------------- -->
+            <div id="proyects" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
+                <p class="etiqueta">&lt;proyects&gt;</p>
+                    <img src="https://static.pintzap.com/img/pics/t/600/1627322822_y-ahora-que-hago.png" alt="">
+                <p class="etiqueta">&lt;/proyects&gt;</p>
+            </div>
+            <!-- --------------------------- F  R  A  S  E ----------------------------- -->
+            <div class="contenedorFrase slide-in from-bottom col-10 col-sm-10 col-md-10 col-lg-6">
+                <div class="frase ">
+                    <p>
+                        ''There is a party after the party called the afterparty.''
+                    </p>
+                    <p class="creditos">-Justin Quiles</p>
+                </div>
+            </div>
+            <!-- ------------------------ C  O  N  T  A  C  T -------------------------- -->
+            <div id="contact" class="col-12 col-sm-11 col-md-10 col-lg-8 seccion fade-in slide-in from-bottom">
+                <p class="etiqueta">&lt;contact&gt;</p>
+                <p class="etiqueta">&lt;/contact&gt;</p>
+            </div>
+        </div>
