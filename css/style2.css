@@ -1,5 +1,6 @@
 body{
     background-color: black;
     color: #0f0;
+    text-shadow: 2px 2px 15px #0f0;
     font-family: 'Consolas';
 }
