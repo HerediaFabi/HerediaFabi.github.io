@@ -3,10 +3,10 @@
     var aText = new Array(
         "Hello! welcome to my personal portfolio.", 
         "My name is <cyan>F</cyan>abiana <cyan>H</cyan>eredia.",
-        "I'm <underline>Software Developer.</underline> <span id='carita'>&#9786</span>"
+        "I'm <span class='cyanUnderline'>Software Developer.</span> <i class='bi bi-emoji-smile'></i>"
         
     );
-    var iSpeed = 40; // time delay of print out
+    var iSpeed = 30; // time delay of print out
     var iIndex = 0; // start printing array at this posision
     var iArrLength = aText[0].length; // the length of the text array
     var iScrollAt = 20; // start scrolling up at this many lines
@@ -37,6 +37,5 @@
             setTimeout("typewriter()", iSpeed);
         }
     }
-
-
-    typewriter();
+    
+    setTimeout(typewriter, 1000);

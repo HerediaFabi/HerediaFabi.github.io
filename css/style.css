@@ -29,7 +29,7 @@ cyan{
     color: #00ffe5;
 }
 
-underline{
+.orangeUnderline{
     text-decoration: underline #ffab3c;
 }
 p {
@@ -47,6 +47,7 @@ p {
     letter-spacing: .15em;
     /* text-transform: uppercase; */
     font-weight: 500;
+    text-shadow: 1.5px 1.5px 0px #000;
 }
 .frase{
     font-size: 170%;
@@ -147,10 +148,13 @@ nav a img{
 .contenido{
     color: #000;
     font-weight: 650;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.281);
+    border: 1px solid #000;
     backdrop-filter: blur(6px);
     padding: 1rem;
     border-radius: 2rem;
+    max-width: 600px;
+    margin: auto;
      /* margin-top: 30vh; */
      /* top: auto; */
 }
@@ -260,7 +264,7 @@ ul.ks-cboxtags li{
 
 ul.ks-cboxtags li label{
     display: inline-block;
-    background-color: transparent;
+    width: 100% !important;
     border: 2px solid #30C6B7;
     color: #30C6B7;
     border-radius: 25px;
