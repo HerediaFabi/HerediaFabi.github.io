@@ -9,9 +9,6 @@ function App() {
   }
   return (
     <div className="container" onClick={clickSound}>
-      <audio id="clickSound">
-        <source src="./click.mp3" type="audio/mpeg" />
-      </audio>
       <h1 className="title">Hola, soy Fabi</h1>
       <p className="text">Ésta página está bajo construcción :(</p>
       <img
@@ -20,7 +17,7 @@ function App() {
         width="150px"
       />
       <p className="text">Pero muy pronto estará disponible :)</p>
-      <span className="text">
+      {/* <span className="text">
         Contador de vistas:
         <a href="https://www.freecounterstat.com" title="website counter">
           <img
@@ -31,7 +28,7 @@ function App() {
             alt="website counter"
           />
         </a>
-      </span>
+      </span> */}
       <div id="sfca8ju6sgdhk5zcl4eb5kexdccqph7jgsk"></div>
     </div>
   );
